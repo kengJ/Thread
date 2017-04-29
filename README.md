@@ -24,7 +24,7 @@
 
 <h5>2.创建线程</h5>
 <dl>
-	<dt>[A.创建线程的方式(3种)]:https://github.com/kengJ/Thread/blob/master/doc/createThread.md "A.创建线程的方式(3种)"</dt>
+	<dt>[A.创建线程的方式(3种)] (https://github.com/kengJ/Thread/blob/master/doc/createThread.md)</dt>
 	<dd>
 		<ul>
 			<li>继承Thread类，重写该类的run()方法</li>
