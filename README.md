@@ -24,10 +24,14 @@
 
 <h5>2.创建线程</h5>
 <dl>
-	<dt>A.创建线程的方式(3种)</dt>
+	<dt>[A.创建线程的方式(3种)]()</dt>
 	<dd>
-		a.继承Thread类，重写该类的run()方法<br>
-		b.实现Runnable接口，并重写该接口的run()方法，该run()方法同样是线程执行体，创建Runnable实现类的实例，并以此实例作为Thread类的target来创建Thread对象，该Thread对象才是真正的线程对象<br>
-		c.使用Callable和Future接口创建线程。具体是创建Callable接口的实现类，并实现clall()方法。并使用FutureTask类来包装Callable实现类的对象，且以此FutureTask对象作为Thread对象的target来创建线程
+		<ul>
+			<li>继承Thread类，重写该类的run()方法</li>
+			<li>实现Runnable接口，并重写该接口的run()方法，该run()方法同样是线程执行体，创建Runnable实现类的实例，并以此实例作为Thread类的target来创建Thread对象，该Thread对象才是真正的线程对象</li>
+			<li>使用Callable和Future接口创建线程。具体是创建Callable接口的实现类，并实现clall()方法。并使用FutureTask类来包装Callable实现类的对象，且以此FutureTask对象作为Thread对象的target来创建线程</li>
+		</ul>
 	</dd>
+
+	<dt>B.</dt>
 </dl>
