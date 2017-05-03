@@ -1,4 +1,5 @@
 # Thread
+<a href="http://www.cnblogs.com/lwbqqyumidi/p/3804883.html">参考资料</a>
 <h4>多线程教程</h5>
 <h5>1.基础概念</h6>
 <p>
